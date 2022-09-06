@@ -1,8 +1,9 @@
 import './categories-directory.styles.scss';
 import CategoryItem from '../category-item/category-item.component';
+import categories from './categories';
 
 
-const CategoriesDirectory = ({ categories }) =>{
+const CategoriesDirectory = ({ category }) =>{
 return (
     <div className="categories-directory">
       {categories.map((category)=> (

@@ -4,7 +4,7 @@ import Home from './Routes/home/home.component';
 
 import Navigation from './Routes/navigation/navigation.component';
 
-import SignIn from './Routes/signin/signin.component';
+import Authentication from './Routes/authentication/authentication.component';
 
 const Shop = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
       <Route path='/' element={<Navigation />}>
         <Route index element={<Home />}/>
         <Route path='shop' element={<Shop />}/> 
-        <Route path='sign-in' element={<SignIn />}/>        
+        <Route path='auth' element={<Authentication />}/>        
       </Route>      
     </Routes>
   );   

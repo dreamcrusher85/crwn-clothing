@@ -6,11 +6,7 @@ import Navigation from './Routes/navigation/navigation.component';
 
 import Authentication from './Routes/authentication/authentication.component';
 
-const Shop = () => {
-  return (
-    <h1>I am the shop page</h1>
-  )
-}
+import Shop from './Routes/shop/shop.component';
 
 
 const App = () => {
